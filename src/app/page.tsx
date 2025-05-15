@@ -2,6 +2,7 @@
 
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
+import ServicesGrid from '@/components/ServicesGrid';
 import { 
   ChartBarIcon, 
   BoltIcon, 
@@ -75,24 +76,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Services Grid */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-16">Our Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {services.map((service, index) => (
-              <div
-                key={service.title}
-                className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-t-4 border-orange-500"
-              >
-                <service.icon className="h-12 w-12 text-orange-600 dark:text-orange-400 mb-4" />
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{service.title}</h3>
-                <p className="text-gray-600 dark:text-gray-300">{service.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ServicesGrid services={services} />
       {/* Footer */}
       <footer className="bg-white text-gray-900 py-12 border-t border-orange-100 dark:bg-gray-900 dark:text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
