@@ -7,21 +7,42 @@ import Navigation from "@/components/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NEXTGEN CONSULTING GROUP | IT Consulting in Kirkland, WA",
-  description: "Full service consulting company providing business solutions and IT-related specializations to small and large businesses in Kirkland, Washington.",
+  metadataBase: new URL('https://www.nextcoglobal.com'),
+  title: {
+    default: "NEXTGEN CONSULTING GROUP | IT Consulting in Kirkland, WA",
+    template: "%s | NEXTGEN CONSULTING GROUP"
+  },
+  description: "NextGen Consulting Group is a full-service IT and business consulting company in Kirkland, WA. We provide expert technology solutions, business strategy, and digital transformation services to help businesses grow and succeed.",
   keywords: [
     "IT consulting",
     "business solutions",
     "Kirkland",
     "NextGen Consulting Group",
     "technology consulting",
-    "Washington"
+    "Washington",
+    "business strategy",
+    "digital transformation",
+    "IT services",
+    "business consulting",
+    "technology solutions",
+    "Kirkland WA",
+    "Seattle area IT consulting"
   ],
+  authors: [{ name: "NextGen Consulting Group" }],
+  creator: "NextGen Consulting Group",
+  publisher: "NextGen Consulting Group",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "NEXTGEN CONSULTING GROUP",
-    description: "Full service consulting company providing business solutions and IT-related specializations to small and large businesses in Kirkland, Washington.",
+    type: "website",
+    locale: "en_US",
     url: "https://www.nextcoglobal.com/",
     siteName: "NextGen Consulting Group",
+    title: "NEXTGEN CONSULTING GROUP | IT Consulting in Kirkland, WA",
+    description: "NextGen Consulting Group is a full-service IT and business consulting company in Kirkland, WA. We provide expert technology solutions, business strategy, and digital transformation services to help businesses grow and succeed.",
     images: [
       {
         url: "/logo.png",
@@ -30,14 +51,19 @@ export const metadata: Metadata = {
         alt: "NextGen Consulting Group Logo",
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
   twitter: {
-    card: "summary",
-    title: "NEXTGEN CONSULTING GROUP",
-    description: "Full service consulting company providing business solutions and IT-related specializations to small and large businesses in Kirkland, Washington.",
+    card: "summary_large_image",
+    title: "NEXTGEN CONSULTING GROUP | IT Consulting in Kirkland, WA",
+    description: "NextGen Consulting Group is a full-service IT and business consulting company in Kirkland, WA. We provide expert technology solutions, business strategy, and digital transformation services to help businesses grow and succeed.",
     images: ["/logo.png"],
+    creator: "@nextcoglobal",
+  },
+  verification: {
+    google: "your-google-site-verification", // Add your Google Search Console verification code
+  },
+  alternates: {
+    canonical: "https://www.nextcoglobal.com",
   },
 };
 
