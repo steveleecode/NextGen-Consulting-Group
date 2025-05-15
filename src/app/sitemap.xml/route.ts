@@ -24,9 +24,9 @@ export async function GET() {
 </urlset>`;
 
   return new Response(sitemap, {
+    status: 200,
     headers: {
       'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=3600, s-maxage=3600',
     },
   });
 } 
