@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     creator: "@nextcoglobal",
   },
   verification: {
-    google: "your-google-site-verification", // Add your Google Search Console verification code
+    google: 'rCxjcA09BN4KuMyvQV8tvzUPtNZJXCJZXHdzeC-IjAQ',
   },
   alternates: {
     canonical: "https://www.nextcoglobal.com",
