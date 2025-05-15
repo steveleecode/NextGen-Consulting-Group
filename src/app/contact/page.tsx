@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/react/24/outline';
 
 export default function Contact() {
+    const formspreeAction = `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID}`;
   return (
     <>
       <Navigation />
@@ -81,7 +82,6 @@ export default function Contact() {
         </section>
 
         {/* Contact Form */}
-        {/* TODO: Replace YOUR_FORM_ID with your actual Formspree form ID */}
         <section className="py-16">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.form
@@ -89,7 +89,7 @@ export default function Contact() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               className="space-y-6"
-              action="https://formspree.io/f/myzwlrzp"
+              action={formspreeAction}
               method="POST"
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
