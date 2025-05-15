@@ -69,7 +69,7 @@ export default function Contact() {
                 <MapPinIcon className="h-12 w-12 text-orange-600 dark:text-orange-400 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Location</h3>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=11335+NE+122nd+St+Suite+105,+Kirkland,+WA+98034"
+                  href="https://www.google.com/maps/place/Nextgen+Consulting+Group+LLC/@47.7087506,-122.1919538,17z/data=!3m2!4b1!5s0x54901278cfa798c7:0x2d358b59f450aeac!4m6!3m5!1s0x5490132f03b2a0f9:0x696fb745f1fe63f!8m2!3d47.7087506!4d-122.1893789!16s%2Fg%2F11jy0653jz?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors"
