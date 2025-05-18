@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact | NEXTGEN CONSULTING GROUP",
     description: "Contact NextGen Consulting Group for expert IT and business consulting services in Kirkland, WA. Get in touch with our team of professionals today.",
-    url: "https://www.nextcoglobal.com/contact",
+    url: "https://next-gen-consulting-group.vercel.app/contact",
     siteName: "NextGen Consulting Group",
     images: [
       {
