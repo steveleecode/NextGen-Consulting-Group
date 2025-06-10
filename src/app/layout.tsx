@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     google: 'rCxjcA09BN4KuMyvQV8tvzUPtNZJXCJZXHdzeC-IjAQ',
   },
   alternates: {
-    canonical: "https://next-gen-consulting-group.vercel.app/",
+    canonical: "https://nextco.it.com/",
   },
 };
 
