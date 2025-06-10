@@ -9,6 +9,17 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      // Redirect www to non-www (e.g., https://www.nextco.it.com → https://nextco.it.com)
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.nextco.it.com' }],
+        destination: 'https://nextco.it.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
 };
 
-module.exports = nextConfig; 
+module.exports = nextConfig;
