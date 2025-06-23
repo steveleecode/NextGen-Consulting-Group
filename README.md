@@ -1,7 +1,7 @@
 # NEXTGEN Consulting Group Website
 
 A modern, responsive website for NEXTGEN Consulting Group built with Next.js 14, TypeScript, and Tailwind CSS.
-Visit it Now: [nextco.it.com](nextco.it.com)
+Visit it Now: [nextco.it.com](http://nextco.it.com)
 
 ## Features
 
